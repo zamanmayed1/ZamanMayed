@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Spline Sans", sans-serif;
+}
+.header {
+  width: 100%;
+  height: 600px;
+
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.div1 {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  padding: 100px;
+  padding-left: 150px;
+}
+.div2 {
+  width: 50%;
+  height: 100%;
+
+  overflow: hidden;
+  background-image: url("bg1.png");
+  background-repeat: no-repeat;
+}
+.div2 img {
+  margin-left: 100px;
+  width: 60%;
+  overflow: hidden;
+  padding-bottom: 38px;
+}
+h1 {
+  font-size: 50px;
+}
+.zaman {
+  color: #e4271a;
+}
+.hireme {
+  padding-top: 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  border: 2px solid black;
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin-top: 200px;
+}
+.button {
+  margin-top: 50px;
+}
+p {
+  font-size: 18px;
+  font-weight: bold;
+}

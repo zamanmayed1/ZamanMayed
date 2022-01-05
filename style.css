@@ -215,3 +215,7 @@ p {
 .top {
   display: flex;
 }
+footer {
+  margin-top: 5px;
+  color: #e4271a;
+}

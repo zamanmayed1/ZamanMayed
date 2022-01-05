@@ -203,6 +203,7 @@ p {
   display: flex;
   float: right;
   margin-right: 370px;
+  margin-top: -80px;
 }
 .followme a {
   color: white;

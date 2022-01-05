@@ -5,8 +5,9 @@ body {
 }
 section {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  padding-bottom: 150px;
+
   width: 100%;
+  padding-bottom: 150px;
 }
 .header {
   width: 100%;
@@ -16,9 +17,8 @@ section {
   background-repeat: no-repeat;
   margin: auto;
   overflow: hidden;
-  display: flex;
+
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  padding-bottom: 150px;
 }
 .div1 {
   width: 50%;
@@ -195,4 +195,22 @@ p {
 
 .livebut {
   padding-top: 50px;
+}
+.followme {
+  width: 160px;
+  height: 45px;
+  background-color: #e4271a;
+  display: flex;
+  float: right;
+  margin-right: 370px;
+}
+.followme a {
+  color: white;
+  font-size: 35px;
+  margin-left: 15px;
+  margin-top: 3px;
+  text-align: center;
+}
+.top {
+  display: flex;
 }

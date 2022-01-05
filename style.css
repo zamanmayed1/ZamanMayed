@@ -86,6 +86,7 @@ p {
   margin-bottom: -30px;
 }
 .section2 {
+  padding-bottom: 150px;
   width: 100%;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -102,4 +103,44 @@ p {
 }
 .icons a {
   margin-right: 15px;
+}
+
+.skill {
+  padding-bottom: 150px;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.services {
+  display: flex;
+  width: 70%;
+  height: 300px;
+
+  margin-top: 15px;
+  overflow: hidden;
+}
+.option {
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+
+  margin-top: 50px;
+  margin-right: 19px;
+  margin: auto;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(231, 79, 40, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  align-items: center;
+}
+.option img {
+  width: 50px;
+  padding-top: 15px;
+}
+.bg {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  background-color: blanchedalmond;
+  align-items: center;
 }

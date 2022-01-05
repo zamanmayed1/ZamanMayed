@@ -93,6 +93,7 @@ p {
 }
 #am {
   color: #e4271a;
+  font-size: 30px;
 }
 .icons {
   width: 100%;
@@ -103,6 +104,7 @@ p {
 }
 .icons a {
   margin-right: 15px;
+  color: #e4271a;
 }
 
 .skill {

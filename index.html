@@ -13,6 +13,25 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<!-- This script collected From Google For off Right Click  -->
+<script type="text/javascript"> 
+    function disableselect(e){  
+    return false  
+    }  
+    
+    function reEnable(){  
+    return true  
+    }  
+    
+    //if IE4+  
+    document.onselectstart=new Function ("return false")  
+    document.oncontextmenu=new Function ("return false")  
+    //if NS6  
+    if (window.sidebar){  
+    document.onmousedown=disableselect  
+    document.onclick=reEnable  
+    }
+    </script>
 </head>
 <body>
     <section class="header">
@@ -99,5 +118,6 @@
 
 
     </section>
-</body>
+    
+
 </html>
